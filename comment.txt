@@ -1,0 +1,4 @@
+использовался Wampserve:
+-phpMyAdmin 4.8.5
+-php 5.6.40
+-MySQL 5.7.26

@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(44, 48, 53);
+    color: white;
+}
+input{
+    background-color: inherit;
+    border: 1px solid rgb(64, 67, 71);
+    outline: none;
+}
+textarea{
+    background-color: inherit;
+    border: 1px solid rgb(64, 67, 71);
+    outline: none;
+    height: 63%;
+}
+label.required:after{
+    color: darkred;
+    content: " *";
+}
+input:focus {
+    border-color: darkred;
+  }
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ml{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color:rgb(44, 48, 53);
+}
+.container{
+    min-width: 100%;
+}
+.comment{
+    background-color: white;
+    color:rgb(44, 48, 53);
+    text-align: center;
+}
+.logo{    
+    width: 10%;
+    min-width: 150px;
+    display: block;
+    margin-left: 10%;   
+}
+.form{
+    width: 50%;
+    margin-left: 20%;
+}
+.button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    padding: 0; 
+  }
+button{   
+    margin-left: 15%;    
+} 
+.footer{
+    display: block;
+    padding: 0;
+    margin-left: 10%;
+}
+/* 2 */
+table .name{
+    background-color: rgb(88, 173, 82);
+    font-weight: 700;
+    color: white;
+}
+table .email{
+    background-color: rgb(222, 235, 222);
+    font-weight: 700;
+    color: rgb(88, 173, 82);
+}
+/* 1 */
+table .message{
+    background-color: rgb(222, 235, 222);
+    font-weight: 600;
+    color: rgb(118, 117, 130);
+}
+table .name1{
+    background-color: rgb(75, 89, 108);
+    font-weight: 700;
+    color: white;
+}
+table .email1{
+    background-color: rgb(233, 238, 243);
+    font-weight: 700;
+    color: rgb(109, 115, 130);
+}
+table .message1{
+    background-color: rgb(233, 238, 243);
+    font-weight: 600;
+    color: rgb(118, 130, 117);
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.mess{
+    padding-left: 10%;
+    padding-right: 10%;
+    word-break: break-all;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+td{
+    padding: 10px;
+}

@@ -1,0 +1,9 @@
+RemoveHandler .html .htm   
+AddType application/x-httpd-php .php .htm .html .phtml
+
+DirectoryIndex index.html
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_URI} \.(ini|ph.*)$
+RewriteRule ^(.*) index.php [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L,QSA]
+RewriteCond %{REQUEST_URI} /parser/test.php$
+RewriteRule ^(.*) $1 [QSA,L]

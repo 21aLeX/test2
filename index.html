@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8"></meta>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css.css" >
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+  </head>
+  
+  <body onload="go()">
+    <div class="container">
+      <!-- логотип -->
+      <div class="row">
+        <div class="col-sm col-lg col-xxl">
+          <a href="index.html"><img src="hhm_test.png" alt="HONEY HUNTERS" class="logo"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm col-lg col-xxl">
+          <img src="ml.png" alt="E-Mail" width="250px" class="ml">
+        </div>
+      </div>
+      <!-- форма для заполнения -->
+      <div class="row">
+        <div class="col col-sm col-lg col-xxl">
+          <label class="control-label required form">Имя</label><br>
+          <input  required="required" type="text" class="form" id="name" maxlength='255'> <br>
+          <label class="control-label required form">E-Mail</label> <br>
+          <input  required="required" type="text" class="form" id="email" maxlength='255'> <br>
+        </div>
+        
+        <div class="col col-sm col-lg col-xxl">
+          <label class="control-label required form">Комментарий</label> <br>
+          <textarea  required="required" class="form" id="comment" maxlength='255'></textarea> <br>
+        </div>
+      </div>
+      
+      <!-- кнопка оправки -->
+      <div class="row">
+        <div class="col-9 col-sm-9 col-lg-9 col-xxl-9 button">
+        </div>
+        <div class=" col col-sm col-lg col-xxl button">
+        <button type="button" class="btn btn-danger" onclick="sentData()">Записать</button> <br>
+        </div>
+      </div>
+
+      <!-- блок вывода данных -->
+      <div class="row comment">
+        <div class="col-12 col-sm-12 col-lg-12 col-xxl-12">
+          <h1>Выводим комментарий</h1>
+        </div>
+      </div>
+      
+      <div class="row comment mess" id="row">
+      </div>
+      
+      <!-- подвал -->
+      <div class="row fot">
+        <div class="col-4 col-sm-4 col-lg-4 col-xxl-4 footer">
+          <a href="index.html"><img src="hhm_test.png" alt="HONEY HUNTERS"  width="150px"></a>
+        </div>
+        <div class="col-4 col-sm col-lg-4 col-xxl-4 footer-4">
+        </div>
+        <div class="col col-sm col-lg col-xxl footer">
+          <a href="https://vk.com/"><img src="vk.png" alt="VK"  width="50px"></a>
+          <a href="https://www.facebook.com"><img src="f.png" alt="F" width="50px"></a>
+        </div>
+      </div>
+    
+    </div>
+  
+  </body>
+</html>
